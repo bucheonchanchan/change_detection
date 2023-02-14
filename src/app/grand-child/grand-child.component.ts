@@ -7,7 +7,7 @@ import { ChangeDetectionStrategy, ChangeDetectorRef, Component, Input } from '@a
   // changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GrandChildComponent {
-  @Input() inputData: any;
+  // @Input() inputData: any;
 
   constructor(
     private cdr: ChangeDetectorRef
