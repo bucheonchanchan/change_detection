@@ -1,0 +1,10 @@
+<fieldset>
+    <legend>PARENT</legend>
+    
+    <button (click)="parentButtonA()">BUTTON</button>
+    <button (click)="parentButtonB()">BUTTON</button>
+    <div style="margin-top: 50px;">
+        <app-child [inputData]="inputData"></app-child>
+        <app-child-new></app-child-new>
+    </div>
+</fieldset>

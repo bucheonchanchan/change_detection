@@ -1,0 +1,10 @@
+<fieldset style="display: inline-block;">
+    <legend>CHILD</legend>
+
+    <!-- <span>name: {{inputData.name}} | age: {{inputData.age}}</span> -->
+    <input type="text"><br>
+    <button (click)="myFuncA()">BUTTON-1</button>
+    <button (click)="myFuncB()">BUTTON-2</button>
+    
+    <app-grand-child [inputData]="inputData"></app-grand-child>
+</fieldset>
